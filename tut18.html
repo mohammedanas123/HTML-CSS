@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alignments</title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Ubuntu?query=ubuntu">
+    <style>
+        *{
+box-sizing: border-box;
+        }
+        body{
+            font-family: 'ubunntu', sans-serif;
+        }
+    .container{
+        width: 900px;
+        border: 3px solid purple;
+        margin: 33px auto;
+        background-color: rgb(188, 240, 165);
+
+    }
+    .item{
+         border: 3px solid grey;
+         margin: 12px 3px;
+         padding: 12px 3px;
+         background: rgb(204, 201, 233)
+    }
+    #fruit{
+      float: right;
+      width: 48%;
+    }
+    #computer{
+        float: left;
+        width: 48%;
+    }
+    #stationary{
+        /* float: left;  */
+        clear: both;
+        width: 100%;
+    }
+    p,h1{
+        /* text-align: right;
+        text-align: left;
+        text-align: center; */
+        text-align: justify;
+    }
+    h1{
+        margin: auto;
+        width: 455px;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to my store</h1>
+    <div id="fruit" class="item">
+        <h3>Fruit</h3>
+      <p id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro error numquam natus labore repellat. Sint sapiente deleniti repellat excepturi! Hic culpa possimus unde earum atque nulla in. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, quod nobis deleniti, explicabo sunt animi iure itaque nulla qui repellendus expedita cum quibusdam sed distinctio, in eaque enim labore eligendi dolor maiores dolorem perspiciatis!</p> 
+    </div>
+    <div id="computer" class="item">
+        <h3>computer</h3>
+        <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sint vel iure libero animi aut eligendi autem excepturi, maiores, possimus corrupti, temporibus dolorem explicabo. Laboriosam tempora temporibus eaque iste magni?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, harum explicabo a in deleniti quisquam tempora, adipisci debitis dignissimos, illo obcaecati fugiat veritatis porro ducimus blanditiis beatae eos! Magni accusamus ratione dolorum id quo.</p> 
+      </div>
+      <div id="stationary" class="item">
+        <h3>stationary</h3>
+        <p id="stattionarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sint vel iure libero animi aut eligendi autem excepturi, maiores, possimus corrupti, temporibus dolorem explicabo. Laboriosam tempora temporibus eaque iste magni?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perspiciatis provident ipsa rerum nisi eveniet nihil natus. Dolore sit consectetur placeat et architecto tempore, vitae assumenda, accusantium maxime voluptate minima a non, nam aperiam!</p> 
+      </div>
+      <div id="glasses" class="item">
+        <h3>stationary</h3>
+      <p id="glassespara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sint vel iure libero animi aut eligendi autem excepturi, maiores, possimus corrupti, temporibus dolorem explicabo. Laboriosam tempora temporibus eaque iste magni?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perspiciatis provident ipsa rerum nisi eveniet nihil natus. Dolore sit consectetur placeat et architecto tempore, vitae assumenda, accusantium maxime voluptate minima a non, nam aperiam!</p> 
+    </div>
+</body>
+</html>
